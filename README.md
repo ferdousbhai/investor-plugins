@@ -1,4 +1,4 @@
-# Finance Plugins
+# Investor Plugins
 
 A Claude Code plugin marketplace for financial analysis and trading.
 
@@ -6,12 +6,12 @@ A Claude Code plugin marketplace for financial analysis and trading.
 
 ```bash
 # Add the marketplace
-/plugin marketplace add ferdousbhai/finance-plugins
+/plugin marketplace add ferdousbhai/investor-plugins
 
 # Install plugins
-/plugin install investor@finance-plugins   # Market data & research
-/plugin install tasty@finance-plugins      # TastyTrade brokerage
-/plugin install alpaca@finance-plugins     # Alpaca Markets
+/plugin install investor@investor-plugins   # Market data & research
+/plugin install tasty@investor-plugins      # TastyTrade brokerage
+/plugin install alpaca@investor-plugins     # Alpaca Markets
 ```
 
 ## Plugins
