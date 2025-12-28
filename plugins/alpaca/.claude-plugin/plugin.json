@@ -1,0 +1,21 @@
+{
+  "name": "alpaca",
+  "version": "1.0.0",
+  "description": "Alpaca Markets integration for stocks, ETFs, crypto, and options trading",
+  "author": {
+    "name": "Alpaca Markets (wrapped by Ferdous)"
+  },
+  "repository": "https://github.com/alpacahq/alpaca-mcp-server",
+  "license": "Apache-2.0",
+  "keywords": ["alpaca", "brokerage", "trading", "stocks", "crypto"],
+  "mcpServers": {
+    "alpaca": {
+      "command": "uvx",
+      "args": ["alpaca-mcp-server"],
+      "env": {
+        "ALPACA_API_KEY": "${ALPACA_API_KEY}",
+        "ALPACA_API_SECRET": "${ALPACA_API_SECRET}"
+      }
+    }
+  }
+}

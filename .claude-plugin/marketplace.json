@@ -1,0 +1,33 @@
+{
+  "name": "finance-plugins",
+  "owner": {
+    "name": "Ferdous",
+    "email": "ferdous@hey.com"
+  },
+  "metadata": {
+    "description": "Financial analysis, trading, and brokerage tools for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "investor",
+      "source": { "source": "github", "repo": "ferdousbhai/investor-agent" },
+      "description": "Market data, sentiment, earnings, and stock research",
+      "version": "1.6.1",
+      "keywords": ["stocks", "sentiment", "research", "yfinance"]
+    },
+    {
+      "name": "tasty",
+      "source": { "source": "github", "repo": "ferdousbhai/tasty-agent" },
+      "description": "TastyTrade brokerage - positions, orders, options trading",
+      "version": "3.2.0",
+      "keywords": ["brokerage", "trading", "options", "tastytrade"]
+    },
+    {
+      "name": "alpaca",
+      "source": "./plugins/alpaca",
+      "description": "Alpaca Markets - stocks, ETFs, crypto, options trading",
+      "version": "1.0.0",
+      "keywords": ["brokerage", "trading", "alpaca", "stocks", "crypto"]
+    }
+  ]
+}
