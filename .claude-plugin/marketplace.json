@@ -28,6 +28,13 @@
       "description": "Alpaca Markets - stocks, ETFs, crypto, options trading",
       "version": "1.0.0",
       "keywords": ["brokerage", "trading", "alpaca", "stocks", "crypto"]
+    },
+    {
+      "name": "ibkr",
+      "source": "./plugins/ibkr",
+      "description": "Interactive Brokers - full trading, market data, Flex Query",
+      "version": "1.0.0",
+      "keywords": ["brokerage", "trading", "interactive-brokers", "ibkr"]
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "name": "ibkr",
+  "version": "1.0.0",
+  "description": "Interactive Brokers integration - trading, market data, portfolio management",
+  "author": {
+    "name": "code-rabi (wrapped by Ferdous)"
+  },
+  "repository": "https://github.com/code-rabi/interactive-brokers-mcp",
+  "keywords": ["interactive-brokers", "ibkr", "brokerage", "trading"],
+  "mcpServers": {
+    "ibkr": {
+      "command": "npx",
+      "args": ["-y", "interactive-brokers-mcp"]
+    }
+  }
+}

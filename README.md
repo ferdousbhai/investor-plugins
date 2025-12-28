@@ -12,6 +12,7 @@ A Claude Code plugin marketplace for financial analysis and trading.
 /plugin install investor@investor-plugins   # Market data & research
 /plugin install tasty@investor-plugins      # TastyTrade brokerage
 /plugin install alpaca@investor-plugins     # Alpaca Markets
+/plugin install ibkr@investor-plugins       # Interactive Brokers
 ```
 
 ## Plugins
@@ -21,16 +22,20 @@ A Claude Code plugin marketplace for financial analysis and trading.
 | `investor` | Market data, sentiment, earnings, stock research | [investor-agent](https://github.com/ferdousbhai/investor-agent) |
 | `tasty` | TastyTrade brokerage integration | [tasty-agent](https://github.com/ferdousbhai/tasty-agent) |
 | `alpaca` | Alpaca Markets trading API | [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) |
+| `ibkr` | Interactive Brokers trading | [interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) |
 
 ## Configuration
 
 ### Alpaca
 
-Set environment variables for Alpaca API access:
 ```bash
 export ALPACA_API_KEY="your-key"
 export ALPACA_API_SECRET="your-secret"
 ```
+
+### Interactive Brokers
+
+Requires Node.js 18+. On first run, browser opens for OAuth authentication.
 
 ### TastyTrade
 
