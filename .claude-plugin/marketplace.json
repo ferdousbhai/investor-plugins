@@ -10,14 +10,14 @@
   "plugins": [
     {
       "name": "investor",
-      "source": { "source": "github", "repo": "ferdousbhai/investor-agent" },
+      "source": { "source": "url", "url": "https://github.com/ferdousbhai/investor-agent.git" },
       "description": "Market data, sentiment, earnings, and stock research",
       "version": "1.6.1",
       "keywords": ["stocks", "sentiment", "research", "yfinance"]
     },
     {
       "name": "tasty",
-      "source": { "source": "github", "repo": "ferdousbhai/tasty-agent" },
+      "source": { "source": "url", "url": "https://github.com/ferdousbhai/tasty-agent.git" },
       "description": "TastyTrade brokerage - positions, orders, options trading",
       "version": "3.2.0",
       "keywords": ["brokerage", "trading", "options", "tastytrade"]
