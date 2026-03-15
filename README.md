@@ -9,7 +9,7 @@ A Claude Code plugin marketplace for financial analysis and trading.
 /plugin marketplace add ferdousbhai/investor-plugins
 
 # Install plugins
-/plugin install investor@investor-plugins   # Market data & research
+/plugin install investor@investor-plugins   # Market data & research (codemode)
 /plugin install tasty@investor-plugins      # TastyTrade brokerage
 /plugin install alpaca@investor-plugins     # Alpaca Markets
 /plugin install ibkr@investor-plugins       # Interactive Brokers
@@ -17,14 +17,18 @@ A Claude Code plugin marketplace for financial analysis and trading.
 
 ## Plugins
 
-| Plugin | Description | Source |
-|--------|-------------|--------|
-| `investor` | Market data, sentiment, earnings, stock research | [investor-agent](https://github.com/ferdousbhai/investor-agent) |
-| `tasty` | TastyTrade brokerage integration | [tasty-agent](https://github.com/ferdousbhai/tasty-agent) |
-| `alpaca` | Alpaca Markets trading API | [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) |
-| `ibkr` | Interactive Brokers trading | [interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) |
+| Plugin | Version | Description | Source |
+|--------|---------|-------------|--------|
+| `investor` | 2.0.0 | Financial research via codemode on Cloudflare Workers | [investor-agent](https://github.com/ferdousbhai/investor-agent) |
+| `tasty` | 3.3.2 | TastyTrade brokerage integration | [tasty-agent](https://github.com/ferdousbhai/tasty-agent) |
+| `alpaca` | 1.0.0 | Alpaca Markets trading API | [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) |
+| `ibkr` | 1.0.0 | Interactive Brokers trading | [interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) |
 
 ## Configuration
+
+### Investor Agent (v2.0)
+
+The investor plugin uses a URL-based MCP server hosted on Cloudflare Workers. After installing the plugin, update the MCP server URL in the plugin config to point to your deployment.
 
 ### Alpaca
 

@@ -11,15 +11,15 @@
     {
       "name": "investor",
       "source": { "source": "url", "url": "https://github.com/ferdousbhai/investor-agent.git" },
-      "description": "Market data, sentiment, earnings, and stock research",
-      "version": "1.6.1",
-      "keywords": ["stocks", "sentiment", "research", "yfinance"]
+      "description": "Financial research via codemode - LLM writes JS to orchestrate 14 data functions in a sandboxed V8 isolate",
+      "version": "2.0.0",
+      "keywords": ["stocks", "sentiment", "research", "codemode", "cloudflare-workers"]
     },
     {
       "name": "tasty",
       "source": { "source": "url", "url": "https://github.com/ferdousbhai/tasty-agent.git" },
       "description": "TastyTrade brokerage - positions, orders, options trading",
-      "version": "3.2.0",
+      "version": "3.3.2",
       "keywords": ["brokerage", "trading", "options", "tastytrade"]
     },
     {
