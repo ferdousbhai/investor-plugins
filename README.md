@@ -28,7 +28,7 @@ A Claude Code plugin marketplace for financial analysis and trading.
 
 ### Investor Agent (v2.0)
 
-The investor plugin uses a URL-based MCP server hosted on Cloudflare Workers. After installing the plugin, update the MCP server URL in the plugin config to point to your deployment.
+Public MCP server — no setup needed. The plugin connects to `https://investor.ferdousbhai.com/mcp` automatically.
 
 ### Alpaca
 

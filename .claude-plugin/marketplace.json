@@ -11,7 +11,7 @@
     {
       "name": "investor",
       "source": { "source": "url", "url": "https://github.com/ferdousbhai/investor-agent.git" },
-      "description": "Financial research via codemode - LLM writes JS to orchestrate 14 data functions in a sandboxed V8 isolate",
+      "description": "Financial research via codemode - LLM writes JS to orchestrate 13 data functions in a sandboxed V8 isolate",
       "version": "2.0.0",
       "keywords": ["stocks", "sentiment", "research", "codemode", "cloudflare-workers"]
     },
